@@ -1,6 +1,6 @@
 import pandas as pd
 from typing import Counter
-from .fisherLib import fisher_exact as fisher_exact_log
+from fisherLib import fisher_exact as fisher_exact_log
 from scipy.stats import fisher_exact as fisher_exact_scipy
 from scipy import stats
 from scipy.stats import chi2
