@@ -8,6 +8,8 @@ from base import COST_Classifier as COST_Classifier_single
 from base_multi import COST_Classifier as COST_Classifier_multi
 from sklearn.model_selection import train_test_split
 
+#! Note that the labels should start from 0: y = [0,2,4,1,3,1,2...] but not y = [1,3,5,2,4,2,3...]
+
 # Example 1: single-label classification
 # load dataset
 columns = [ 'Led1', 'Led2', 'Led3', 'Led4', 'Led5', 'Led6', 'Led7', 'class']
